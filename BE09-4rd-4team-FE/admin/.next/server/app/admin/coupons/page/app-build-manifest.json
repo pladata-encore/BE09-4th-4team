@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "/admin/coupons/page": [
+      "static/chunks/node_modules_next_dist_05476590._.js",
+      "static/chunks/src_app_layout_jsx_a9a6c143._.js",
+      "static/chunks/src_styles_globals_92af3bb9.css",
+      "static/chunks/src_app_layout_jsx_007ca514._.js",
+      "static/chunks/_15d49e0f._.js",
+      "static/chunks/src_app_admin_layout_jsx_5cfca218._.js",
+      "static/chunks/node_modules_b1167bc8._.js",
+      "static/chunks/src_88aefe0c._.js",
+      "static/chunks/src_app_admin_coupons_page_jsx_a8aecf67._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_17e42fcf._.js",
+      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
+      "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
+      "static/chunks/node_modules_next_dist_0eb1e458._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
+      "static/chunks/_e69f0d32._.js",
+      "static/chunks/_a894171a._.js"
+    ]
+  }
+}

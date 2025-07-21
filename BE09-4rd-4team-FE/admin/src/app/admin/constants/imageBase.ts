@@ -1,0 +1,1 @@
+export const BASE_IMAGE_URL = "http://dev.macacolabs.site:8008/images/4/";

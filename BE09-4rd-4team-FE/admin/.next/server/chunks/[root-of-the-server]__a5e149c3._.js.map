@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///Users/yudaeun/dev/BE09-4rd-4team/BE09-4rd-4team-FE/admin/src/app/api/login/route.js"],"sourcesContent":["// admin/src/app/api/login/route.js\n\nexport async function POST(req) {\n    const { email, password } = await req.json();\n\n    if (email === \"admin@oliveyoung.com\" && password === \"admin\") {\n        return Response.json({ email, name: \"관리자\" }, { status: 200 });\n    }\n\n    return Response.json({ message: \"인증 실패\" }, { status: 401 });\n}\n"],"names":[],"mappings":"AAAA,mCAAmC;;;;AAE5B,eAAe,KAAK,GAAG;IAC1B,MAAM,EAAE,KAAK,EAAE,QAAQ,EAAE,GAAG,MAAM,IAAI,IAAI;IAE1C,IAAI,UAAU,0BAA0B,aAAa,SAAS;QAC1D,OAAO,SAAS,IAAI,CAAC;YAAE;YAAO,MAAM;QAAM,GAAG;YAAE,QAAQ;QAAI;IAC/D;IAEA,OAAO,SAAS,IAAI,CAAC;QAAE,SAAS;IAAQ,GAAG;QAAE,QAAQ;IAAI;AAC7D","debugId":null}}]
+}

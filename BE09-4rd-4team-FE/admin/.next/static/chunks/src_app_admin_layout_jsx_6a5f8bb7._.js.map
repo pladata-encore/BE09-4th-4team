@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/yudaeun/dev/BE09-4rd-4team/BE09-4rd-4team-FE/admin/src/app/admin/layout.jsx"],"sourcesContent":["// src/app/admin/layout.jsx\n\"use client\";\n\nimport Sidebar from \"@/components/Sidebar\";\nimport Header from \"@/components/Header\";\nimport \"../../styles/globals.css\";\n\nexport default function AdminLayout({ children }) {\n  return (\n    <div className=\"flex min-h-screen\">\n      <Sidebar />\n      <main className=\"flex-1\">\n        <Header />\n        <div className=\"p-6\">{children}</div>\n      </main>\n    </div>\n  );\n}\n"],"names":[],"mappings":"AAAA,2BAA2B;;;;;AAG3B;AACA;AAHA;;;;;AAMe,SAAS,YAAY,EAAE,QAAQ,EAAE;IAC9C,qBACE,6LAAC;QAAI,WAAU;;0BACb,6LAAC,gIAAA,CAAA,UAAO;;;;;0BACR,6LAAC;gBAAK,WAAU;;kCACd,6LAAC,+HAAA,CAAA,UAAM;;;;;kCACP,6LAAC;wBAAI,WAAU;kCAAO;;;;;;;;;;;;;;;;;;AAI9B;KAVwB","debugId":null}}]
+}

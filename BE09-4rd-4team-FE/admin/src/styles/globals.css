@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 여기에 공통 스타일 추가 가능 */
+body {
+  font-family: 'NotoSansKR', sans-serif;
+}

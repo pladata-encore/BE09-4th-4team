@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/yudaeun/dev/BE09-4rd-4team/BE09-4rd-4team-FE/admin/src/app/page.jsx"],"sourcesContent":["// ✅ 파일 경로: src/app/page.jsx\nimport { redirect } from \"next/navigation\";\n\nexport default function Home() {\n  redirect(\"/admin/login\");\n}\n"],"names":[],"mappings":"AAAA,4BAA4B;;;;AAC5B;AAAA;;AAEe,SAAS;IACtB,CAAA,GAAA,qLAAA,CAAA,WAAQ,AAAD,EAAE;AACX","debugId":null}}]
+}

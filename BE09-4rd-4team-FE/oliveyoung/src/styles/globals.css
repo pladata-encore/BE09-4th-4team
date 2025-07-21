@@ -1,0 +1,30 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+body {
+  font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+  word-spacing: -1px;
+  letter-spacing: -.04em;
+}
+
+@font-face {
+  font-family: 'cj_onlyone_new_medium';
+  src: url('/fonts/cj_onlyone_new_medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/yudaeun/dev/BE09-4rd-4team/BE09-4rd-4team-FE/admin/src/app/layout.jsx"],"sourcesContent":["\"use client\";\nimport \"../styles/globals.css\";\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"ko\">\n      <body>{children}</body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAGe,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC7C,qBACE,6WAAC;QAAK,MAAK;kBACT,cAAA,6WAAC;sBAAM;;;;;;;;;;;AAGb","debugId":null}}]
+}

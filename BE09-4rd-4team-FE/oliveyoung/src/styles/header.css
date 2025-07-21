@@ -1,0 +1,21 @@
+/* header.css */
+
+li:hover .bg-arrow-hover {
+  background-position: bottom;
+}
+
+.bg-arrow-hover {
+  background-image: var(--arrow-bg-image);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+li:active .bg-arrow-active {
+  background-position: bottom;
+}
+
+.bg-arrow-active {
+  background-image: var(--arrow-bg-image);
+  background-position: top;
+  background-repeat: no-repeat;
+}
